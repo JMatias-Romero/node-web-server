@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-web-server",
+  "version": "1.0.0",
+  "description": "proyecto de web server con node.js",
+  "license": "ISC",
+  "author": "Matias Romero",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "env-var": "^7.5.0",
+    "express": "^5.1.0"
+  }
+}
